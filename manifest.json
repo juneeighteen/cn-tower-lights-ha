@@ -1,0 +1,12 @@
+{
+  "domain": "cn_tower_lights",
+  "name": "CN Tower Lighting",
+  "config_flow": true,
+  "documentation": "https://github.com/juneeighteen/ha-cn-tower-lights",
+  "issue_tracker": "https://github.com/juneeighteen/ha-cn-tower-lights/issues",
+  "codeowners": ["@juneeighteen"],
+  "iot_class": "cloud_polling",
+  "version": "1.1.0",
+  "requirements": []  // Zero deps!
+}
+
