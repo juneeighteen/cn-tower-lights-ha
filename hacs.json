@@ -1,0 +1,8 @@
+{
+  "name": "CN Tower Lighting",
+  "content_in_root": false,
+  "homeassistant": "2024.1.0",
+  "hacs": "2.0.0",
+  "iot_class": "cloud_polling",
+  "platforms": ["sensor", "calendar", "switch"]
+}
