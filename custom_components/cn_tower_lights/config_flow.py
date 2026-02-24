@@ -6,13 +6,13 @@ import voluptuous as vol
 from homeassistant import config_entries
 from homeassistant.data_entry_flow import FlowResult
 from homeassistant.helpers import selector
-
+from .const import DOMAIN
 from .const import CONF_UPDATE_HOUR, DEFAULT_UPDATE_HOUR
 
 STEP_USER = "user"
 STEP_REAUTH = "reauth"
 
-class ConfigFlow(config_entries.ConfigFlow, domain="cn_tower_lights"):
+class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Config flow handler."""
 
     @staticmethod
